@@ -69,7 +69,7 @@ char	*ft_strjoin(char *s1, char *s2)
 			new_str[count] = s1[count];
 	while (s2[aux] != '\0')
 		new_str[count++] = s2[aux++];
-	new_str[ft_strlen(s1) + ft_strlen(s2)] = '\0';
+	new_str[count] = '\0';
 	free(s1);
 	return (new_str);
 }
