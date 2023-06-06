@@ -109,11 +109,6 @@ char	*ft_next_line(char *str)
 	count = -1;
 	while (str[shift] && str[shift] != '\n')
 		shift++;
-	if (str[shift] == '\0')
-	{
-		free (str);
-		return (NULL);
-	}
 	nline = malloc((ft_strlen(str) - shift + 2) * sizeof(char));
 	if (!nline)
 		return (NULL);
