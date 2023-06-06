@@ -45,7 +45,7 @@ char	*get_next_line(int fd)
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, NULL, 0))
 		return (NULL);
 	fildes = ft_read_line(fd, fildes);
-	if (!fildes || ft_strlen(fildes) == 0)
+	if (!fildes)
 		return (NULL);
 	line = ft_get_line(fildes);
 	fildes = ft_next_line(fildes);
