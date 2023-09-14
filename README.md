@@ -1,7 +1,7 @@
 # Get Next Line
 
 <p align="center">
-<img src="imagem.png">
+<img src="image.png">
 </p>
 
 <p align="center">
