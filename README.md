@@ -18,7 +18,7 @@ programming: static variables, and to gain a deeper understanding of allocations
 the manipulation and the life cycle of a buffer, the unexpected complexity implied 
 in the use of one or many static variables.
 
-### Compiling
+## Makefile rules
 
 | Rule         |                 Description                             |
 |:------------:|:-------------------------------------------------------:|
